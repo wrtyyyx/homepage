@@ -1,12 +1,278 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Résumé</title>
+    <title>Résumé — Dmitry Soltanovskij</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <!-- CONTACT INFO -->
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Dmitry Soltanovskij</h1>
+            <h3 class="contact-info__sub-header">Middle Frontend Developer</h3>
+
+            <div class="contact_info_container fh">
+              <!-- Left -->
+              <div class="contact-info__block">
+                <a href="mailto:soltanovskijdima0@gmail.com" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+                      />
+                    </svg>
+                  </div>
+                  <span>soltanovskijdima0@gmail.com</span>
+                </a>
+
+                <a href="https://t.me/d_soltanovskiy" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 496 512"
+                    >
+                      <path
+                        d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"
+                      />
+                    </svg>
+                  </div>
+                  <span>@d_soltanovskiy</span>
+                </a>
+
+                <a href="" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                      />
+                    </svg>
+                  </div>
+                  <span>Odessa, Ukraine</span>
+                </a>
+              </div>
+
+              <!-- Avatar -->
+              <div class="contact-info__block contact-info__block--center">
+                <img
+                  class="contact-info__avatar"
+                  src="assets/avatar.jpeg"
+                  alt="Dmitry Soltanovskij"
+                />
+              </div>
+
+              <!-- Right -->
+              <div class="contact-info__block">
+                <a href="https://github.com/wrtyyyx" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 496 512"
+                    >
+                      <path
+                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8z"
+                      />
+                    </svg>
+                  </div>
+                  <span>wrtyyyx</span>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/dmitro-soltanovskij/"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                      />
+                    </svg>
+                  </div>
+                  <span>dmitro-soltanovskij</span>
+                </a>
+
+                <a href="https://github.com/wrtyyyx" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"
+                      />
+                    </svg>
+                  </div>
+                  <span>wrtyyyx.github.io</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- INTRO -->
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  />
+                </svg>
+              </div>
+              <p class="intro_text">
+                Frontend Developer with solid commercial experience in HTML, CSS, JavaScript,
+                TypeScript, and React, as well as hands-on practice with Vue.js/Nuxt.js and Next.js.
+                I specialize in building responsive, adaptive, and highly interactive web
+                interfaces, ensuring cross-browser compatibility and smooth user experiences. My
+                approach combines strong technical skills, attention to clean code and intuitive
+                UX/UI design, and a passion for continuous learning and growth. Passionate about
+                creating products that make a positive impact and improve people's lives.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p class="skills__text">
+                HTML, CSS, JavaScript, TypeScript, React, Vue.js, Nuxt.js, Next.js, Tailwind CSS,
+                Redux, RTK Query, React Router, REST API, Material UI, Bootstrap, Git, Cross-browser
+                compatibility, Responsive Design, UX/UI
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- EXPERIENCE + EDUCATION -->
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <!-- EXPERIENCE -->
+              <div class="experiences">
+                <h3 class="experiences__header">Experience</h3>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability">July 2025 – Present</span>
+                    <h3 class="experiences__company-header-name">TenThousand</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">Software Developer</span>
+                    <h3 class="experiences__company-project-name">TenThousand Platform</h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Frontend development using modern web technologies</li>
+                      <li>Building scalable and maintainable UI components</li>
+                      <li>Collaborating with cross-functional teams</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >November 2024 – April 2025</span
+                    >
+                    <h3 class="experiences__company-header-name">JunJun.io</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">Frontend Developer</span>
+                    <h3 class="experiences__company-project-name">
+                      Platform Migration (PHP → React + Node.js)
+                    </h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Built and refined UI components using React and JS/TS</li>
+                      <li>Collaborated with senior devs and participated in code reviews</li>
+                      <li>Delivered new features, fixed bugs, ensured application stability</li>
+                      <li>
+                        Contributed to migration from PHP monolith to React + Node.js architecture
+                      </li>
+                      <li>Followed best practices to write clean, maintainable code</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ADDITIONAL INFO -->
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+                  <div class="additional-info__education-university">
+                    <span class="additional-info__education-university-durability">2023</span>
+                    <h3 class="additional-info__education-university-speciality">Front-end Pro</h3>
+                    <p class="additional-info__education-university-name">Hillel IT School</p>
+                  </div>
+                  <div class="additional-info__education-university" style="margin-top: 15px">
+                    <span class="additional-info__education-university-durability">2022</span>
+                    <h3 class="additional-info__education-university-speciality">
+                      Front-end Basic
+                    </h3>
+                    <p class="additional-info__education-university-name">Hillel IT School</p>
+                  </div>
+                  <div class="additional-info__education-university" style="margin-top: 15px">
+                    <span class="additional-info__education-university-durability">2023</span>
+                    <h3 class="additional-info__education-university-speciality">
+                      Python Essentials 2
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Cisco Networking Academy
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">Ukrainian — C1</p>
+                  <p class="additional-info__languages-item">English — B1</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HOBBIES -->
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">About me 🏀</h3>
+              <p class="skills__text">
+                Outside of coding I'm passionate about basketball and sports in general — staying
+                active keeps me sharp and focused. I believe the same mindset that makes a great
+                teammate on the court makes a great collaborator in a dev team: communication,
+                discipline, and always pushing to improve.
+              </p>
+              <p
+                style="margin-top: 10px; color: var(--durability-text-color); font-size: 13px"
+                title="🏀 Achievement unlocked: You found the easter egg! Dmitry was here."
+              >
+                · · · psst, hover this line · · ·
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
